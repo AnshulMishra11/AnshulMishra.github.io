@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        h1{
+            width: 900px;
+            height:60px;
+            color: black;
+            text-align: center;
+            background-color: rgb(195, 255, 99);
+            border: 2px solid green ;
+            margin: 10px;
+            padding: 50px;
+           
+            
+        }
+        body{
+            margin: 100px;
+            padding: 20px;
+        }
+        p{
+            color: rgb(231, 14, 14);
+            text-shadow: 2px 2px 3px blue;
+            font-size: 200%;
+            font-weight: 200;
+            cursor: zoom-in;
+            
+        }
+
+        footer{
+            margin: 20px;
+            
+        }
+        #send{
+            width: 100px;
+            height:30px;
+            
+
+        }
+
+        input[type="submit"]{
+            background-color: aquamarine;
+            font-size: medium;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        img{
+            border: 5px solid rgb(255, 101, 101);
+            margin: 20px;
+            border-radius: 2px;
+            float:right
+        }
+        main{
+            
+            border-radius: 10px;
+            border-width: 10px;
+            border-style: solid;
+            box-sizing: content-box;
+            border-color: aquamarine;
+           
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Contact Form </h1> 
+    
+    </header>
+
+    <br>
+    <br>
+    <img src= "notesss/form photo.jpg" width="200">
+    
+    <main>
+        
+
+        <p> Your Name:* 
+            <br>
+            <input type = "text" name="name"  id="name" required placeholder="Enter text"> </p>
+        <p> Email:*  <input type ="email" name="email" id="email" placeholder=" Valid email" required >  </p>
+        
+        <p> Password:* <input type ="password" id="password" name="password"> </p>
+        <p> Message:* <input type="textarea" rows="20" cols="30" name="message" id="message" required>  </p>
+        <p> Subject:* <input type = "text" required>  </p>
+
+    </main>
+
+    <p>  <footer> <input type = "submit" value="send it!" id="send" ></footer> 
+    </p>
+    
+</body>
+</html>
