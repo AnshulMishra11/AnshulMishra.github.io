@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website develop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="phone.css">
+    <style>
+        nav{
+            display: flex;
+            
+            background-color: rgba(230, 230, 230, 0.368);
+            height: 70px;
+            
+            
+        }
+        #navbar{
+            position: relative;
+            
+        }
+
+        #logo img{
+            border-radius: 70%;
+            margin: 5px;
+            padding: 10px;
+            top: 0px;
+            left: 0px;
+        }
+
+        ol{
+            list-style: none;
+            display: flex;
+            font-size: 15px;
+            
+            word-spacing: 5px;
+        }
+        ol li a{
+            padding: 5px;
+            margin: 3px;
+            color: black;
+            font-style: italic;
+            text-decoration: none;
+        }
+
+        ol li a:hover{
+            color:blue;
+            background-color: gray;
+            background-size: 25px;
+            border-radius: 10px;
+        }
+
+        #h{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            padding: 60px;
+            margin: 5px;
+            border-spacing: 0px;
+            
+
+        }
+        body::before{
+            content: "";
+            position: absolute;
+            background: url("pic/salad-2756467.jpg") no-repeat center center/cover;
+            top: 0px;
+            left: 0px;
+            height: 80%;
+            width: 100%;
+            z-index:-1 ;
+            
+        }
+
+        .wel{
+            color: aquamarine;
+            text-shadow: 3px 2px rgba(255, 63, 63, 0.662);
+            font-size: 200%;
+            font-family: 'Baloo 2', cursive;
+        }
+         
+        p{
+            color: rgb(255, 255, 255);
+            font-family: 'Baloo 2', cursive;
+        }
+        
+
+        .btn{
+            color: red;
+            background-color: rgba(0, 0, 255, 0.719);
+            border: rgb(128, 128, 128) 2px solid;
+            padding: 3px;
+            margin: 4px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .serv{
+            padding: 100px;
+            text-align: center;
+            text-align: center;
+            font-size: 200%;
+            
+        }
+
+        #txt{
+            color: rgb(255, 250, 107);
+        }
+        #servimg{
+            margin: 3px;
+            text-align: center;
+            border: black 1px solid;
+            padding: 10px;
+            background: rgb(205, 205, 211);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        h2{
+            text-align: center;
+            color: forestgreen;
+        }
+
+        #main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            
+        }
+
+        .client{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        #cli{
+            font-family: 'Baloo 2', cursive;
+            padding: 10px;
+            text-align: center;
+            text-align: center;
+            font-size: 200%;
+
+        }
+        #collegue{
+            height: 50px;
+        }
+        #collegue::before{
+            content:"";
+            position: absolute;
+            background: url("pic/download\ \(2\).jpg") no-repeat center/cover ;
+            
+            height: 50%;
+            width: 100%;
+            z-index:-1;
+            opacity:0.6 ;
+            line-height: 100px;
+
+
+        }
+
+        #cur h1{
+            text-align: center;
+            padding: 100px;
+            font-family: 'Baloo 2', cursive;
+            color: rgb(7, 1, 22);
+            font-size: 100px;
+            font-weight: 50px;
+            text-decoration:underline dashed ;
+            
+
+        }
+
+        #cur {
+            padding: 30px;
+            background: url("pic/download\ \(3\).jpg") no-repeat center center/cover;
+            opacity: 0.8;
+            margin-top: 80px;
+            
+        }
+        
+
+        #contact{
+            display: flex;
+            flex-direction: column;
+            
+            row-gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            color: white;
+
+        }
+
+        .foot{
+            background: blue;
+            color: black;
+            padding: 10px 20px;
+        }
+
+        #contact input,
+        #contact textarea,
+        #contact text{
+            width: 500px;
+            background: rgba(196, 255, 197, 0.776);
+            color: white;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="pic/download (3).jpg" width="50px">
+        </div>
+        
+        
+        <ol>
+            <li class="a"> <a href="#"  >Home  </a>  </li>
+            <li class="a"> <a href="#"  >Service </a>  </li>
+            <li class="a"> <a href="#"  >About   </a> </li>
+            <li class="a"> <a href="#"  >Contact  </a> </li>
+        </ol>
+    </nav>
+    <section id="h">
+        <h1 class="wel"> Welcome </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur
+        </p>
+        <button class="btn"> Order food </button>
+
+
+
+    </section>
+    <h1 class="serv"> Service</h1>
+    <section id="main">
+        
+        <div id="servimg"> <img src="pic/download (2).jpg" height="100" > 
+        <h2> Food Order </h2>
+        <p id="txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis perferendis vitae ipsum aperiam eius voluptas illum magnam porro nemo. lorem1000
+        </p>
+        </div>
+        
+
+
+        <div id="servimg" > <img src="pic/download (2).jpg" height="100" > 
+        <h2> Food Order </h2>
+        <p id="txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis perferendis vitae ipsum aperiam eius voluptas illum magnam porro nemo. lorem1000
+        </p>
+        </div>
+
+
+        <div id="servimg" > <img src="pic/download (2).jpg" height="100" > 
+        <h2> Food Order </h2>
+        <p id="txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis perferendis vitae ipsum aperiam eius voluptas illum magnam porro nemo. lorem1000
+        </p>
+        </div>
+
+        
+        
+    </section>
+
+    <p id="collegue">
+        <h1 id="cli" > Our Dear Client </h1>
+            <section class="client">
+        
+            <img src="pic/th (6).jpg" height="70">
+            <img src="pic/th (5).jpg" height="70">
+            <img src="pic/th (4).jpg" height="70">
+            <img src="pic/th (3).jpg" height="70">
+        
+            <img src="pic/th (7).jpg" height="70">
+            </section>
+    </p>
+
+
+    <div id="cur"> 
+        <h1>-:Contact:-</h1>
+        <section id="contact">
+        
+            <a class="name">Name:
+                <br> 
+                <input type="text" placeholder="Enter name here ">
+            </a>
+            <a class="mail">  E-Mail: 
+                <br>
+                <input type="email" placeholder="Mail">
+            </a>
+            <a class="no">Contact no:
+                <br>
+                <input type="number" placeholder="1234567890"> 
+            </a>
+            <a class="Message"> Message:
+                <br>
+                 <textarea name="message" rows="5" cols="20" placeholder="Message type">
+            </a>
+
+
+        </section>
+    </div>
+    <section>
+        <footer>
+            copyright
+        </footer>
+    </section>
+
+
+</body>
+</html>
